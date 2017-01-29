@@ -1,0 +1,22 @@
+package loops;
+import java.util.Scanner;
+
+public class loop {
+
+	public static void main(String[] args) {
+		int n,sum,i;
+		sum=0;
+		i=1;
+		Scanner input=new Scanner(System.in);
+		System.out.print("enter the n");
+		n=input.nextInt();
+		while(i<=n)
+		{
+			sum=sum+i;
+			i++;
+}
+			System.out.print("the sum of n is"+sum);
+
+	}
+
+} 
