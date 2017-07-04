@@ -1,0 +1,13 @@
+package practice;
+
+
+public class staicKeywordExplanation {
+	
+
+	
+	static float Mul(float x,float y)
+	{return (x*y);}
+	static float divide(float x,float y)
+	{return (x/y);
+	}
+	}

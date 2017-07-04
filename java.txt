@@ -1,0 +1,23 @@
+package practice;
+
+public class commamdLineArguments {
+
+	public static void main(String[] args) {
+		 int count=1,i=2;
+		 String string;
+		 count=args.length;
+		 System.out.print("number of arguments=  " +count);
+		 while(i<count)
+		 {
+			 string=args[i];
+			 i=i+1;
+			 System
+			 .out
+			 .println
+			 (
+					 i+":"+"java is"+string+"!"
+					 );
+		 }
+		 
+
+	}

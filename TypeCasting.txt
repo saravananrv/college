@@ -1,0 +1,20 @@
+package practice;
+import java.util.Scanner;
+public class TypeCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a=50;
+float n=(float)a;
+System.out.println(n);
+Scanner input =new Scanner(System.in);
+float r= input.nextFloat();
+double   c,v;
+c=2*3.14*r;
+v=3.14*r*r;
+
+System.out.println(c+" "+v);
+
+	}
+
+}
